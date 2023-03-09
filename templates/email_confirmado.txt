@@ -1,0 +1,11 @@
+Caro usuário,
+
+ o endereço de IP {{ip_user}} confirmou este email como titular da conta do {{app_name}}.
+ 
+ Seu email foi confirmado com sucesso.
+ Caso não seja você, ignore essa mensagem,
+ mas proteja seus dispositivos como celulares e computadores de terceiros
+
+
+ Atenciosamente, 
+ Equipe: {{app_name}} 

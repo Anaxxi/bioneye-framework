@@ -1,0 +1,1515 @@
+{
+	"info": {
+		"_postman_id": "8fd58aed-2cc6-4d2b-bfa6-6298d960461b",
+		"name": "bioneye",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15403418"
+	},
+	"item": [
+		{
+			"name": "LOGIN",
+			"item": [
+				{
+					"name": "register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "samuel@bioney.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "12345678",
+									"type": "text"
+								},
+								{
+									"key": "ativo",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "cpf",
+									"value": "47500119834",
+									"type": "text"
+								},
+								{
+									"key": "email_confirmado",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "chave_email_confirmado",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "name",
+									"value": "Samuel",
+									"type": "text"
+								},
+								{
+									"key": "sobrenome",
+									"value": "Batista",
+									"type": "text"
+								},
+								{
+									"key": "tel_ddi",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "tel_ddd",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "created_at",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "updated_at",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "cliente_id",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "tel_numero",
+									"value": "997500506",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{address}}/user/register",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"user",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "samuel@bioneye.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "12345678",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{address}}/user/login",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"user",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "register administrador",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "samuel@bioneye.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "12345678",
+									"type": "text"
+								},
+								{
+									"key": "ativo",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "cpf",
+									"value": "47500119835",
+									"type": "text"
+								},
+								{
+									"key": "email_confirmado",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "chave_email_confirmado",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "Samuel",
+									"type": "text"
+								},
+								{
+									"key": "sobrenome",
+									"value": "Batistaa",
+									"type": "text"
+								},
+								{
+									"key": "tel_ddi",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "tel_ddd",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "tel_numero",
+									"value": "997500506",
+									"type": "text"
+								},
+								{
+									"key": "created_at",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "updated_at",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "id_cliente",
+									"value": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{address}}/administrador/register",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"administrador",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login administrador",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "samuel@bioney.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "12345678",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{address}}/administrador/login",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"administrador",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CLIENTE",
+			"item": [
+				{
+					"name": "/cliente/cliente_id",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{auth}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{address}}/cliente/{{cliente_id}}",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"cliente",
+								"{{cliente_id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/cliente/all",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{auth_administrador}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "samuel",
+									"type": "text"
+								},
+								{
+									"key": "created_at",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "updated_at",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "curadoria",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "cpfcnpj",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "razao_social",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "inscricao_municipal",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "inscricao_estadual",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "tel_ddi",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "tel_ddd",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "tel_number",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "end_cep",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "end_pais",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "end_estado",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "end_cidade",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "end_bairro",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "end_tipo_logradouro",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "end_logradouro",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "end_numero",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "end_complemento",
+									"value": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{address}}/cliente/all",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"cliente",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/cliente/<string:id>",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{auth_administrador}}"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Samuel",
+									"type": "text"
+								},
+								{
+									"key": "created_at",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "updated_at",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "curadoria",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "cpf_cnpj",
+									"value": "47500119835",
+									"type": "text"
+								},
+								{
+									"key": "razao_social",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "inscricao_municipal",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "inscricao_estadual",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "tel_ddi",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "tel_ddd",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "tel_numero",
+									"value": "997500506",
+									"type": "text"
+								},
+								{
+									"key": "end_cep",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "end_pais",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "end_estado",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "end_cidade",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "end_bairro",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "end_tipo_logradouro",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "end_logradouro",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "end_numero",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "end_complemento",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "curadoria_at",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "curadoria_id",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "user_id",
+									"value": "{{id_usuario}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{address}}/cliente/{{id_usuario}}",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"cliente",
+								"{{id_usuario}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/cliente/<string:id>",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{auth}}"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "Samuel",
+									"type": "text"
+								},
+								{
+									"key": "created_at",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "updated_at",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "curadoria",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "cpfcnpj",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "razao_social",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "inscricao_municipal",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "inscricao_estadual",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "tel_ddi",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "tel_ddd",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "tel_numero",
+									"value": "134679134679",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "end_cep",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "end_pais",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "end_estado",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "end_cidade",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "end_bairro",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "end_tipo_logradouro",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "end_logradouro",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "end_numero",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "end_complemento",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "user_id",
+									"value": "{{id_usuario}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{address}}/cliente/{{cliente_id}}",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"cliente",
+								"{{cliente_id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/cliente/<string:id>",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{auth}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{address}}/cliente/{{cliente_id}}",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"cliente",
+								"{{cliente_id}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "USUARIOS CONSULT",
+			"item": [
+				{
+					"name": "USER ACESS CONFIRMATION",
+					"item": [
+						{
+							"name": "/ouser/email",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "email",
+											"value": "samuka05--carlos@hotmail.com",
+											"type": "text"
+										},
+										{
+											"key": "",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										}
+									]
+								},
+								"url": {
+									"raw": "{{address}}/user/email",
+									"host": [
+										"{{address}}"
+									],
+									"path": [
+										"user",
+										"email"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/ouser/email",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "email",
+											"value": "samuel@bioney.com",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{address}}/user/email",
+									"host": [
+										"{{address}}"
+									],
+									"path": [
+										"user",
+										"email"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/ouser/confirm/<string:chave_email_confirmado>>",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{address}}/user/confirm/{{id_usuario}}",
+									"host": [
+										"{{address}}"
+									],
+									"path": [
+										"user",
+										"confirm",
+										"{{id_usuario}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "/users/<string:parameter>",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{auth}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{address}}/users/all",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"users",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/user/<string:_od>",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{auth}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{address}}/user/{{id_usuario}}",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"user",
+								"{{id_usuario}}"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/user/<string:_od>",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{auth}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{address}}/user/{{id_usuario}}",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"user",
+								"{{id_usuario}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ADMINISTRADOR CONSULT",
+			"item": [
+				{
+					"name": "ADMINISTRADOR CONFIRM",
+					"item": [
+						{
+							"name": "/ouser/email",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "email",
+											"value": "samuka05--carlos@hotmail.com",
+											"type": "text"
+										},
+										{
+											"key": "",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										}
+									]
+								},
+								"url": {
+									"raw": "{{address}}/administrador/email",
+									"host": [
+										"{{address}}"
+									],
+									"path": [
+										"administrador",
+										"email"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/ouser/email",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "email",
+											"value": "samuka05--carlos@hotmail.com",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{address}}/administrador/email",
+									"host": [
+										"{{address}}"
+									],
+									"path": [
+										"administrador",
+										"email"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/ouser/confirm/<string:chave_email_confirmado>>",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{address}}/administrador/confirm/{{id_administrador}}",
+									"host": [
+										"{{address}}"
+									],
+									"path": [
+										"administrador",
+										"confirm",
+										"{{id_administrador}}"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "/administrador/<string:parameter>",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{auth_administrador}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{address}}/administradors/all",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"administradors",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/administrador/<string:_od>",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{auth_administrador}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{address}}/administrador/{{id_administrador}}",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"administrador",
+								"{{id_administrador}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/administrador/<string:_od>",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{auth_administrador}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{address}}/administrador/{{id_administrador}}",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"administrador",
+								"{{id_administrador}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PLANO",
+			"item": [
+				{
+					"name": "/plano/<string:id> PLANO",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{auth}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{address}}/plano/{{plano_id}}",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"plano",
+								"{{plano_id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/plano/<string:id>",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{auth_administrador}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "odonto",
+									"type": "text"
+								},
+								{
+									"key": "created_at",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "updated_at",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "preco_plano",
+									"value": "100",
+									"type": "text"
+								},
+								{
+									"key": "pagseguro",
+									"value": "www.www",
+									"type": "text"
+								},
+								{
+									"key": "observacao",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "inativo_at",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "ativo",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "inativo_administrador_id",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "administrador_id",
+									"value": "{{id_administrador}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{address}}/plano/create",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"plano",
+								"create"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/plano/<string:id>",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{auth}}"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "odo",
+									"type": "text"
+								},
+								{
+									"key": "created_at",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "updated_at",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "preco_plano",
+									"value": "100",
+									"type": "text"
+								},
+								{
+									"key": "pagseguro",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "observacao",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "inativo_at",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "{{address}}/plano/{{plano_id}}",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"plano",
+								"{{plano_id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/plano/<string:id>",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{auth_administrador}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{address}}/plano/{{plano_id}}",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"plano",
+								"{{plano_id}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "TESTE",
+			"item": [
+				{
+					"name": "/teste/<string:id> TESTE",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{auth}}"
+							}
+						],
+						"url": {
+							"raw": "{{address}}/teste/{{teste_id}}",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"teste",
+								"{{teste_id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/teste/<string:id>",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{auth_administrador}}"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "teste-002",
+									"type": "text"
+								},
+								{
+									"key": "created_at",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "updated_at",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "especie",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "material_amostra",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "peso_link",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "responsavel_tecnico",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "observacao_interna",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "observacao_exame",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "preco",
+									"value": "100",
+									"type": "text"
+								},
+								{
+									"key": "administrador_id",
+									"value": "{{_od_administrador}}",
+									"type": "text"
+								},
+								{
+									"key": "peso_administrador_id",
+									"value": "{{_od_administrador}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{address}}/teste/{{id_usuario}}",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"teste",
+								"{{id_usuario}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/teste/<string:id>",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{auth}}"
+							}
+						],
+						"url": {
+							"raw": "{{address}}/teste/{{teste_id}}",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"teste",
+								"{{teste_id}}"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "/teste/<string:id>",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Authorization",
+								"type": "text",
+								"value": "{{auth}}"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "teste-002",
+									"type": "text"
+								},
+								{
+									"key": "created_at",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "updated_at",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "especie",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "material_amostra",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "peso_link",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "responsavel",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "teste_preco",
+									"value": "100",
+									"type": "text"
+								},
+								{
+									"key": "observacao_interna",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "observacao_exame",
+									"value": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{address}}/teste/{{teste_id}}",
+							"host": [
+								"{{address}}"
+							],
+							"path": [
+								"teste",
+								"{{teste_id}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
